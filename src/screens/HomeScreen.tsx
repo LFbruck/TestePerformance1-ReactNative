@@ -23,8 +23,8 @@ export default function HomeScreen({ navigation }: any) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.header}>TP1 - React Native</Text>
-            <Text style={styles.subtitle}>Selecione uma tarefa:</Text>
+            <Text style={styles.header}>Teste de Performance 1</Text>
+
 
             <ScrollView style={styles.scrollView}>
                 {tasks.map((task) => (

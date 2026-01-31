@@ -29,7 +29,7 @@ export default function AppNavigator() {
                 <Stack.Screen
                     name="Home"
                     component={HomeScreen}
-                    options={{ title: 'TP1 - React Native' }}
+                    options={{ title: 'Luiz Filipe Bruck Reis Mattos - Desenvolvimento Mobile com React Native' }}
                 />
                 <Stack.Screen name="Task01" component={Task01Screen} options={{ title: 'Tarefa 01' }} />
                 <Stack.Screen name="Task02" component={Task02Screen} options={{ title: 'Tarefa 02' }} />
