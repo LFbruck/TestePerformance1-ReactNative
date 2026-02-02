@@ -9,7 +9,21 @@ export default function Task04Screen() {
             <Text style={styles.title}>3.Prata</Text>
             <Text style={styles.title}>4.Ethereum</Text>
             <Text style={styles.title}>5.Solana</Text>
-
+            <Text style={styles.title}>6. Dólar</Text>
+            <Text style={styles.title}>7. Euro</Text>
+            <Text style={styles.title}>8. Libra</Text>
+            <Text style={styles.title}>9. Iene</Text>
+            <Text style={styles.title}>10. Real</Text>
+            <Text style={styles.title}>6. Diamante</Text>
+            <Text style={styles.title}>7. Platina</Text>
+            <Text style={styles.title}>8. Dólar</Text>
+            <Text style={styles.title}>9. Euro</Text>
+            <Text style={styles.title}>10. Cardano</Text>
+            <Text style={styles.title}>11. Polkadot</Text>
+            <Text style={styles.title}>12. Litecoin</Text>
+            <Text style={styles.title}>13. Chainlink</Text>
+            <Text style={styles.title}>14. Avalanche</Text>
+            <Text style={styles.title}>15. Polygon</Text>
         </ScrollView>
     );
 }
