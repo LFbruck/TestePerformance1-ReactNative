@@ -12,13 +12,13 @@ export default function Task01Screen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'darkslategray',
-        justifyContent: 'center',
-        alignItems: 'center',
+        backgroundColor: "darkslategray",
+        justifyContent: "center",
+        alignItems: "center",
     },
     title: {
-        color: 'white',
+        color: "white",
         fontSize: 24,
-        textAlign: 'center',
+        textAlign: "center",
     },
 });

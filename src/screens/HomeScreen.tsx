@@ -45,7 +45,7 @@ export default function HomeScreen({ navigation }: any) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f5f5f5',
+        backgroundColor: 'white',
         padding: 20,
     },
     header: {
