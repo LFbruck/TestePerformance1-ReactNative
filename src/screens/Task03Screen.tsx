@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
-export default function TaskXXScreen() {
+export default function Task03Screen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Tarefa XX - Em desenvolvimento</Text>
+            <Image source={{uri: "https://static.vecteezy.com/ti/fotos-gratis/t2/36324708-ai-gerado-cenario-do-uma-tigre-caminhando-dentro-a-floresta-foto.jpg"}}
+            style={{ width:"100%", height: 500}}/>
+            <Text style={styles.title}>Tigre. Um dos animais mais incriveis do mundo!</Text>
         </View>
     );
 }
@@ -16,6 +18,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
+        gap: 10,
     },
     title: {
         color: 'white',
