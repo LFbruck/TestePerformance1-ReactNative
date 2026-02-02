@@ -1,11 +1,16 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {  Text, StyleSheet, ScrollView } from 'react-native';
 
-export default function TaskXXScreen() {
+export default function Task04Screen() {
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>Tarefa XX - Em desenvolvimento</Text>
-        </View>
+        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer} >
+            <Text style={styles.title}>1.Bitcoin</Text>
+            <Text style={styles.title}>2.Ouro</Text>
+            <Text style={styles.title}>3.Prata</Text>
+            <Text style={styles.title}>4.Ethereum</Text>
+            <Text style={styles.title}>5.Solana</Text>
+
+        </ScrollView>
     );
 }
 
@@ -13,13 +18,15 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'darkslategray',
-        justifyContent: 'center',
+
+    },
+    contentContainer:{
         alignItems: 'center',
         padding: 20,
     },
     title: {
         color: 'white',
-        fontSize: 20,
+        fontSize: 70,
         textAlign: 'center',
     },
 });
